@@ -11,7 +11,7 @@
 
 void main(void) {
     
-    OSCCONbits.IRCF = 0b0010; //4 Mhz
+    OSCCONbits.IRCF = 0b1111; //4 Mhz
     
     while(1) {
         NOP();
